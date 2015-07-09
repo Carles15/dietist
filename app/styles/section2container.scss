@@ -1,0 +1,53 @@
+div.section2Container{
+	width: 100%;
+	height: 930px;
+	background-color: #EDEDED;
+	/*Esto podría ir oscureciendose conforme bajamos*/
+
+	div.section2ContainerMainData{
+		width: 80%;
+		height: 100%;
+		margin-left: 10%;
+		padding-top:10%;
+
+		div.section2ContainerLeftImage{
+			height: 50%;
+			background-image: url('http://vignette1.wikia.nocookie.net/marvelcinematicuniverse/images/a/ae/Tony-stark2.jpg/revision/latest?cb=20141129031020');
+			background-size: 100% 100%;
+		}
+
+		div.section2ContainerMainDataMiddleSeparator{
+		}	
+
+		div.section2ContainerRightContent{
+			height: 80%;
+			background-color: white;
+
+			div.section2ContainerRightContentFirstPoint{
+				height: 15%;
+
+				h1{
+					text-align: center;
+				}
+			}
+
+			div.section2ContainerRightContentSecondPoint{
+				height: 85%;
+
+				h2{
+					text-align: center;
+				}
+			}
+		}	
+	}
+
+	.continueToSection3{
+		top: -3.5% !important;
+		right: -91% !important;
+
+		background-color: #FFF !important;
+
+		background-image: url('../images/downArrow.png');
+		background-size: 100% 100%;
+	}
+}
